@@ -1,0 +1,42 @@
+/* 分页功能的通用样式 */
+#ty_paging {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  font-size: 12px;
+  color: #666666;
+  background-color: #FFFFFF;
+}
+#ty_paging li {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  margin: 0px 5px;
+  padding: 0px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  vertical-align: top;
+  text-align: center;
+}
+
+#ty_paging .home,#ty_paging .jump {
+  width:45px;
+}
+#ty_paging .max {
+  width: 60px;
+  border: none;
+}
+#ty_paging .inputPage {
+  height: 35px;
+  width: 45px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #999999;
+}
