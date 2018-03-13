@@ -9,34 +9,36 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  font-size: 12px;
+  font-size: 14px;
   color: #666666;
   background-color: #FFFFFF;
 }
 #ty_paging li {
   display: inline-block;
-  height: 35px;
-  width: 35px;
-  line-height: 35px;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
   margin: 0px 5px;
   padding: 0px;
   border: 1px solid #ddd;
+  border-radius: 2px;
   cursor: pointer;
   vertical-align: top;
   text-align: center;
 }
-
 #ty_paging .home,#ty_paging .jump {
-  width:45px;
+  width: 56px;
+  height: 32px;
 }
 #ty_paging .max {
   width: 60px;
   border: none;
 }
 #ty_paging .inputPage {
-  height: 35px;
-  width: 45px;
+  height: 32px;
+  width: 56px;
   border: 1px solid #ddd;
+  border-radius: 2px;
   text-align: center;
   color: #999999;
 }
