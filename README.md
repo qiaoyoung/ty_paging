@@ -28,7 +28,7 @@ currentPage :当前点击的页码 */
 
 ### 浅析下实现逻辑：
 
-我把实现分页功能的js，css从项目中分离了出来，半路出家的我在此不敢称对此功能块进行了封装，就是抽离了出来，降低代码耦合性。
+我把实现分页功能的js、css从项目中分离了出来，对此功能块进行封装，降低代码耦合性。
 我把文件命名为`ty_`开头，原因很简单。ty是我公司的缩写，这样定义文件名、func名、参数名等，是为了防止与其他文件、函数、全局变量等重名，带来不必要的麻烦。
 ![](http://upload-images.jianshu.io/upload_images/3265534-3fea4e0a3d6a8265.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
